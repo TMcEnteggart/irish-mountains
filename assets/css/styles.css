@@ -71,5 +71,34 @@ header {
     }
 }
     
+#welcome {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 2%;
+}
+
+#essentials {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 2%;
+}
+
+footer {
+    text-align: center;
+    
+}
+
+#follow-us {
+    padding: 1%;
+}
+
+.social-links > li {
+   display: inline;
+   font-size: 200%;
+   margin: 1%;
+   padding: 5%;
+}
 
 
