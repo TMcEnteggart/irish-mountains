@@ -42,10 +42,34 @@ header {
 
 /* hero image */
 #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url('../css/images/Hero\ Image\ -\ Irish\ Mountains.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    
+
+    /*  FIX!!!  zooms out hero image on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* zoom-out level for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1.1);
     }
+    to {
+        transform: scale(1);
+    }
+}
+    
+
 
