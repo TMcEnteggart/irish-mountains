@@ -197,6 +197,11 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+.trail-info {
+    list-style-position: inside;
+    list-style-type: square;
+}
 #trail-1 {
     
 }
