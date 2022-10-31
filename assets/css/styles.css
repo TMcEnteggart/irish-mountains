@@ -197,6 +197,11 @@ footer {
     text-align: center;
 }
 
+#legnabrocky {
+    height: 400px;
+    width: 600px;
+}
+
 #trail-2 {
     display: flex;
     flex-direction: column;
@@ -204,9 +209,19 @@ footer {
     text-align: center;
 }
 
+#glenariff {
+    height: 400px;
+    width: 600px;
+}
+
 #trail-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+#carrauntoohil {
+    height: 400px;
+    width: 600px;
 }
