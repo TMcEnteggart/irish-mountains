@@ -33,6 +33,7 @@ header {
     
     
     
+    
 }
 
 #logo {
@@ -202,9 +203,9 @@ footer {
     list-style-position: inside;
     list-style-type: square;
 }
-#trail-1 {
+
     
-}
+
 
 #legnabrocky {
     height: 400px;
@@ -212,9 +213,9 @@ footer {
     align-self: center;
 }
 
-#trail-2 {
+
     
-}
+
 
 #glenariff {
     height: 400px;
@@ -222,9 +223,7 @@ footer {
     align-self: center;
 }
 
-#trail-3 {
-    
-}
+
 
 #carrauntoohil {
     height: 400px;
