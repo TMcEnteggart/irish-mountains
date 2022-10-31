@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -16,35 +18,43 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+
 #logo {
-    float: left;
+    justify-content: left;
+    height: 200px;
+    width: 200px;
+}
+
+#name {
+    justify-content: center;
     font-size: 250%;
+    padding-top: 20px;
     
 }
 
 #menu {
-    float: right;
+    justify-content: right;
     font-size: 110%;
     letter-spacing: 2px;
 }
 
 #menu li {
-    float: right;
+    
     list-style-type: none;
     margin: 30px;
-}
-
-
-
-header {
-    padding-bottom: 100px;
 }
 
 /* hero image */
 #hero-image {
     height: 500px;
     width: 100%;
-    background-image: url('../css/images/Hero\ Image\ -\ Irish\ Mountains.jpg');
+    background-image: url('../images/Hero\ Image\ -\ Irish\ Mountains.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     
@@ -100,5 +110,3 @@ footer {
    margin: 1%;
    padding: 5%;
 }
-
-
