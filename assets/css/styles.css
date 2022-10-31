@@ -190,38 +190,39 @@ footer {
 #main-locations {
     padding: 40px;
 }
-#trail-1 {
+
+.trail {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+#trail-1 {
+    
 }
 
 #legnabrocky {
     height: 400px;
     width: 600px;
+    align-self: center;
 }
 
 #trail-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    
 }
 
 #glenariff {
     height: 400px;
     width: 600px;
+    align-self: center;
 }
 
 #trail-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    
 }
 
 #carrauntoohil {
     height: 400px;
     width: 600px;
+    align-self: center;
 }
