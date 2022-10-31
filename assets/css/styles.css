@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300&display=swap');
 
 
+
 html {
     height: 100%;
 }
@@ -122,6 +123,50 @@ main {
     margin-left: 200px;
     margin-right: 200px;
     padding: 2%;
+}
+
+
+
+/*checklist general rules*/
+
+#checklists {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/Essentials\ List\ -\ Background\ Image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+
+    height: auto;
+    width: 100%;
+}
+.list {
+    border-radius: 5px;
+    height: 100%;
+    width: 600px;
+    text-align: left;
+    margin-top: 100px;
+    
+}
+
+.list h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.list li {
+    text-decoration: underline;
+}
+
+#essentials-list {
+    background-color: rgba(134, 238, 113, 0.8);
+    
+}
+
+#optional-list {
+    background-color: rgba(231, 229, 101, .8);
+    
 }
 
 footer {
