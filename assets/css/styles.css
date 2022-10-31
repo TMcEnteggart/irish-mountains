@@ -10,9 +10,15 @@ a {
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(218, 122, 13);
 }
 
 body {
+    color: rgb(19, 83, 70);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -25,15 +31,12 @@ h1, h2, h3, li {
     letter-spacing: 2px;
 }
 
-/* FIX ALIGNMENT */
+
 header {
     display: flex;
     min-width: 100%;
     flex-direction: row;
-    
-    
-    
-    
+    margin-bottom: 20px;
 }
 
 #logo {
@@ -51,6 +54,7 @@ header {
 }
 
 #menu {
+    padding-left: 1250px;
     align-self: center;
     padding-top: 20px;
     font-size: 110%;
@@ -69,7 +73,7 @@ header {
 
 /* hero image and cover text */
 #hero-image {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-image: url('../images/Hero\ Image\ -\ Irish\ Mountains.jpg');
     background-repeat: no-repeat;
@@ -83,7 +87,7 @@ header {
 }
 
 #hero-outer {
-    height: 500px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     
@@ -91,9 +95,9 @@ header {
 
 #welcome {
     text-align: center;
-    max-width: 50%;
-    padding: 2%;
     align-self: center;
+    max-width: 50%;
+    align-self: left;
 
     
 
@@ -120,10 +124,11 @@ main {
     
 
 #essentials {
-    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    padding: 2%;
+    padding: .5%;
+    max-width: 50%;
+    align-self: center;
 }
 
 
@@ -144,8 +149,8 @@ main {
 }
 .list {
     border-radius: 5px;
-    height: 100%;
-    width: 600px;
+    height: 90%;
+    width: 700px;
     text-align: left;
     margin-top: 100px;
     
@@ -161,12 +166,13 @@ main {
 }
 
 #essentials-list {
-    background-color: rgba(134, 238, 113, 0.8);
+    background-color: rgba(252, 250, 248, 0.75);
     
 }
 
 #optional-list {
-    background-color: rgba(231, 229, 101, .8);
+    background-color: rgba(252, 250, 248, 0.75);
+    margin-bottom: 100px;
     
 }
 
@@ -176,7 +182,7 @@ footer {
 }
 
 #follow-us {
-    padding: 1%;
+    padding: .5%;
 }
 
 .social-links > li {
