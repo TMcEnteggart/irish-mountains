@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 body {
@@ -20,34 +23,39 @@ h1, h2 {
 
 header {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding-bottom: 10px;
-    
+    justify-content: space-between;
 }
 
 #logo {
-    justify-content: left;
+    
     height: 200px;
     width: 200px;
 }
 
 #name {
-    justify-content: center;
+    
     font-size: 250%;
     padding-top: 20px;
     
 }
 
 #menu {
-    justify-content: right;
+
     font-size: 110%;
     letter-spacing: 2px;
 }
 
 #menu li {
-    
+    float: right;
     list-style-type: none;
     margin: 30px;
+}
+
+#menu a {
+    font-weight: normal;
 }
 
 /* hero image */
