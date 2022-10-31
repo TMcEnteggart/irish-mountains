@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300&display=swap');
 
+
 html {
     height: 100%;
 }
@@ -11,8 +12,10 @@ a {
 }
 
 body {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    font-size: 130%;
 }
 
 h1, h2 {
@@ -21,12 +24,14 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
+/* FIX ALIGNMENT */
 header {
     display: flex;
+    min-width: 100%;
     flex-direction: row;
-    flex-wrap: nowrap;
-    padding-bottom: 10px;
-    justify-content: space-between;
+    
+    
+    
 }
 
 #logo {
@@ -36,14 +41,16 @@ header {
 }
 
 #name {
-    
-    font-size: 250%;
+    text-align: center;
+    font-size: 50px;
     padding-top: 20px;
-    
+    align-self: center;
+
 }
 
 #menu {
-
+    align-self: center;
+    padding-top: 20px;
     font-size: 110%;
     letter-spacing: 2px;
 }
@@ -51,14 +58,14 @@ header {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 30px;
+    margin: 20px;
 }
 
 #menu a {
     font-weight: normal;
 }
 
-/* hero image */
+/* hero image and cover text */
 #hero-image {
     height: 500px;
     width: 100%;
@@ -67,7 +74,7 @@ header {
     background-position: center center;
     
 
-    /*  FIX!!!  zooms out hero image on loading page*/
+    /* zooms out hero image on loading page*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: backwards;
@@ -77,6 +84,19 @@ header {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    
+}
+
+#welcome {
+    text-align: center;
+    max-width: 50%;
+    padding: 2%;
+    align-self: center;
+
+    
+
+
+
 }
 
 /* zoom-out level for hero image */
@@ -88,13 +108,14 @@ header {
         transform: scale(1);
     }
 }
-    
-#welcome {
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 2%;
+
+/* main element stylings*/
+main {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
+    
 
 #essentials {
     text-align: center;
