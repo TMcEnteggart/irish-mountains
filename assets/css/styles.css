@@ -116,12 +116,7 @@ header {
 }
 
 /* main element stylings*/
-main {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-    
+
 
 #essentials {
     margin-left: 200px;
@@ -195,6 +190,21 @@ footer {
 
 /* locations page rules */
 
+#locations-hero-image {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/Locations\ Hero\ Image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+
+    /* zooms out hero image on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+
 #main-locations {
     padding: 40px;
 }
@@ -236,4 +246,47 @@ footer {
     height: 400px;
     width: 600px;
     align-self: center;
+}
+
+/* newsletter page rules */
+
+#newsletter-hero {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/Newsletter\ -\ Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+
+    /* zooms out hero image on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+/* form styles */
+
+#signup-box {
+    background-image: url(../images/Signup\ Form\ Background\ Image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    margin: 0 auto;
+    padding: 20px 0 20px 200px;
+    width: 50%;
+    height: 500px;
+    text-align: left;
+}
+
+#signup-form {
+    background-color: rgba(128, 128, 128, .5);
+    margin: 20px 250px 100px 0;
+}
+
+
+
+input[type=text], input[type=email] {
+  width: 20%;
+  margin-bottom: 30px;
+
 }
