@@ -44,7 +44,6 @@ header {
 }
 
 #logo {
-    
     height: 200px;
     width: 200px;
 }
@@ -54,11 +53,9 @@ header {
     font-size: 50px;
     padding-top: 20px;
     align-self: center;
-
 }
 
 #menu {
-    padding-left: 1250px;
     align-self: center;
     padding-top: 20px;
     font-size: 110%;
@@ -79,8 +76,7 @@ header {
 #hero-image {
     height: 400px;
     width: 100%;
-    background-image: url(../images/Hero\ Image\ -\ Irish\ Mountains.jpg
-    );
+    background-image: url(../images/Irish-Mountains-Hero-Image.webp);
     background-repeat: no-repeat;
     background-position: center center;
     
@@ -95,7 +91,6 @@ header {
     height: 400px;
     width: 100%;
     overflow: hidden;
-    
 }
 
 #welcome {
@@ -113,28 +108,22 @@ header {
     }
 }
 
-/* main element stylings*/
-
-
 #essentials {
     margin: 0 auto;
     max-width: 50%;
     align-self: center;
 }
 
-
-
 /*checklist general rules*/
 
 #checklists {
     display: flex;
     justify-content: space-evenly;
-    background-image: url(../images/Essentials\ List\ -\ Background\ Image.jpg);
+    background-image: url(../images/Essentials-List-Background-Image.webp
+    );
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    
-
     height: auto;
     width: 100%;
 }
@@ -144,7 +133,6 @@ header {
     width: 700px;
     text-align: left;
     margin-top: 100px;
-    
 }
 
 .list h3 {
@@ -158,19 +146,16 @@ header {
 
 #essentials-list {
     background-color: rgba(252, 250, 248, 0.75);
-    
 }
 
 #optional-list {
     background-color: rgba(252, 250, 248, 0.75);
     margin-bottom: 100px;
     padding-right: 10px;
-    
 }
 
 footer {
     text-align: center;
-    
 }
 
 #follow-us {
@@ -189,10 +174,9 @@ footer {
 #locations-hero-image {
     height: 400px;
     width: 100%;
-    background-image: url(../images/Locations\ Hero\ Image.jpg);
+    background-image: url(../images/Locations-Hero-Image.webp);
     background-repeat: no-repeat;
     background-position: center center;
-    
 
     /* zooms out hero image on loading page*/
     animation-name: hero-zoom;
@@ -249,11 +233,10 @@ footer {
 #newsletter-hero {
     height: 400px;
     width: 100%;
-    background-image: url(../images/Newsletter\ -\ Hero.jpg);
+    background-image: url(../images/Newsletter-Hero_1.webp);
     background-repeat: no-repeat;
     background-position: center center;
     
-
     /* zooms out hero image on loading page*/
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -263,10 +246,9 @@ footer {
 /* form styles */
 
 #signup-box {
-    background-image: url(../images/Signup\ Form\ Background\ Image.jpg);
+    background-image: url(../images/Signup-Form-Background-Image\ \(1\).webp);
     background-repeat: no-repeat;
     background-position: center center;
-    
     margin: 0 auto;
     padding: 20px 0 20px 200px;
     width: 50%;
@@ -275,7 +257,6 @@ footer {
 }
 
 #signup-form {
-    
     background-color: rgba(240, 240, 240, 0.9);
     padding: 10px 0 50px 150px;
     margin: 20px 250px 100px 0;
@@ -295,7 +276,6 @@ input[type=text], input[type=email] {
     background-image: url(../images/Signup\ Success.png);
     background-repeat: no-repeat;
     background-position: center center;
-
     width: 100%;
     height: 550px;
  }
@@ -303,3 +283,34 @@ input[type=text], input[type=email] {
  #success-text {
     padding-top: 20px;
  }
+
+ /* media queries */
+
+ /* for screen size 320px upwards */
+
+ @media  only screen and (min-width: 320px) {
+
+    header {
+        margin: 0;
+    }
+    
+    #logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    #name {
+        font-size: 70%;
+        padding: 0;
+    }
+
+    #menu {
+        font-size: 60%;
+        padding: 0;
+    }
+
+    #menu li {
+        margin: 5px;
+    }
+
+}
