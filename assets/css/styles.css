@@ -38,8 +38,8 @@ h1, h2, h3, li {
 
 header {
     display: flex;
+    justify-content: center;
     min-width: 100%;
-    flex-direction: row;
     margin-bottom: 20px;
 }
 
@@ -52,6 +52,7 @@ header {
     text-align: center;
     font-size: 50px;
     padding-top: 20px;
+    margin-right: 20px;
     align-self: center;
 }
 
@@ -66,10 +67,6 @@ header {
     float: right;
     list-style-type: none;
     margin: 20px;
-}
-
-#menu a {
-    font-weight: normal;
 }
 
 /* hero image and cover text */
@@ -119,13 +116,13 @@ header {
 #checklists {
     display: flex;
     justify-content: space-evenly;
-    background-image: url(../images/Essentials-List-Background-Image.webp
-    );
+    background-image: url(../images/Essentials-List-Background-Image.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin: 0 auto;
     height: auto;
-    width: 100%;
+    width: 1920px;
 }
 .list {
     border-radius: 5px;
@@ -190,10 +187,12 @@ footer {
 }
 
 .trail {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 50%;
 }
 
 .trail-info {
@@ -201,33 +200,11 @@ footer {
     list-style-type: square;
 }
 
-    
-
-
-#legnabrocky {
-    height: 400px;
-    width: 600px;
-    align-self: center;
+.trail-image {
+    height: 600px;
+    width: 1000px;
+    align-self: center;  
 }
-
-
-    
-
-
-#glenariff {
-    height: 400px;
-    width: 600px;
-    align-self: center;
-}
-
-
-
-#carrauntoohil {
-    height: 400px;
-    width: 600px;
-    align-self: center;
-}
-
 /* newsletter page rules */
 
 #newsletter-hero {
@@ -288,29 +265,4 @@ input[type=text], input[type=email] {
 
  /* for screen size 320px upwards */
 
- @media  only screen and (min-width: 320px) {
-
-    header {
-        margin: 0;
-    }
-    
-    #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    #name {
-        font-size: 70%;
-        padding: 0;
-    }
-
-    #menu {
-        font-size: 60%;
-        padding: 0;
-    }
-
-    #menu li {
-        margin: 5px;
-    }
-
-}
+ 
