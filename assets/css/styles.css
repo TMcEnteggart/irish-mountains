@@ -42,6 +42,8 @@ header {
     margin-bottom: 20px;
 }
 
+/*header contents */
+
 #logo {
     height: 200px;
     width: 200px;
@@ -72,7 +74,7 @@ header {
 #hero-image {
     height: 400px;
     width: 100%;
-    background-image: url(../images/Irish-Mountains-Hero-Image.webp);
+    background-image: url(../images/irish-mountains-hero-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
     
@@ -89,11 +91,6 @@ header {
     overflow: hidden;
 }
 
-#welcome {
-    margin: 0 auto;
-    max-width: 50%;
-}
-
 /* zoom-out level for hero image */
 @keyframes hero-zoom {
     from{
@@ -104,13 +101,22 @@ header {
     }
 }
 
+/* welcome section */
+
+#welcome {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+/* essentials section */
+
 #essentials {
     margin: 0 auto;
     max-width: 50%;
     align-self: center;
 }
 
-/*checklist general rules*/
+/*essential/optional list rules*/
 
 #checklists {
     display: flex;
@@ -150,6 +156,8 @@ footer {
     text-align: center;
 }
 
+/* social media links */
+
 #follow-us {
     padding: .5%;
 }
@@ -166,7 +174,7 @@ footer {
 #locations-hero-image {
     height: 400px;
     width: 100%;
-    background-image: url(../images/Locations-Hero-Image.webp);
+    background-image: url(../images/locations-hero-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
 
@@ -176,6 +184,7 @@ footer {
     animation-fill-mode: backwards;
 }
 
+/* locations rules */
 
 #main-locations {
     padding: 40px;
@@ -200,12 +209,13 @@ footer {
     width: 1000px;
     align-self: center;  
 }
+
 /* newsletter page rules */
 
 #newsletter-hero {
     height: 400px;
     width: 100%;
-    background-image: url(../images/Newsletter-Hero_1.webp);
+    background-image: url(../images/newsletter-hero.webp);
     background-repeat: no-repeat;
     background-position: center center;
     
@@ -218,7 +228,7 @@ footer {
 /* form styles */
 
 #signup-box {
-    background-image: url(../images/Signup-Form-Background-Image\ \(1\).webp);
+    background-image: url(../images/signup-form-background-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -243,10 +253,11 @@ input[type=text], input[type=email] {
   margin-bottom: 30px;
 
 }
- /* signup page styles */
+
+ /* signup successful page styles */
 
  #success {
-    background-image: url(../images/Signup\ Success.png);
+    background-image: url(../images/signup\ -success.png);
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
