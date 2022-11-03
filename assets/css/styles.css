@@ -21,6 +21,10 @@ a:hover {
     color: rgb(218, 122, 13);
 }
 
+.link {
+    text-decoration: underline;
+}
+
 body {
     color: rgb(19, 83, 70);
     text-align: center;
@@ -29,7 +33,7 @@ body {
     font-size: 130%;
 }
 
-h1, h2, h3, li {
+h1, h2, h3, nav li {
     font-family: 'Noto Serif', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -61,10 +65,11 @@ header {
     padding-top: 20px;
     font-size: 110%;
     letter-spacing: 2px;
+    float: right;
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin: 20px;
 }
@@ -119,12 +124,13 @@ header {
     background-image: url(../images/Essentials-List-Background-Image.webp);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size:cover;
     margin: 0 auto;
     height: auto;
-    width: 1920px;
 }
+
 .list {
+    background-color: rgba(252, 250, 248, 0.75);
     border-radius: 5px;
     height: 90%;
     width: 700px;
@@ -133,20 +139,15 @@ header {
 }
 
 .list h3 {
+    font-weight: bold;
+}
+
+.title {
     text-align: center;
-    text-decoration: underline;
 }
 
-.list li {
-    text-decoration: underline;
-}
-
-#essentials-list {
-    background-color: rgba(252, 250, 248, 0.75);
-}
 
 #optional-list {
-    background-color: rgba(252, 250, 248, 0.75);
     margin-bottom: 100px;
     padding-right: 10px;
 }
@@ -263,6 +264,25 @@ input[type=text], input[type=email] {
 
  /* media queries */
 
- /* for screen size 320px upwards */
+ /* for screen size 1500px and lower */
+@media screen and (max-width:1500px) {
+    
+/* home page */
+
+ #checklists {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+ }
+
+ .list {
+    align-self: center;
+    background-color: rgba(219, 219, 219, 0.75);
+    border: 2px solid;
+    border-color: rgb(19, 83, 70);
+ }
+
+}
 
  
