@@ -121,7 +121,7 @@ header {
 #checklists {
     display: flex;
     justify-content: space-evenly;
-    background-image: url(../images/Essentials-List-Background-Image.webp);
+    background-image: url(../images/essentials-list-background-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
