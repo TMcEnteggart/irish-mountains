@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300&display=swap');
 
 
-
-html {
-    height: 100%;
-}
-
 a {
     text-decoration: none;
     cursor: pointer;
@@ -30,7 +25,7 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 h1, h2, h3, nav li {
@@ -43,7 +38,7 @@ h1, h2, h3, nav li {
 header {
     display: flex;
     justify-content: center;
-    min-width: 100%;
+    width: auto;
     margin-bottom: 20px;
 }
 
@@ -62,7 +57,6 @@ header {
 
 #menu {
     align-self: center;
-    padding-top: 20px;
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
@@ -227,24 +221,25 @@ footer {
     background-image: url(../images/Signup-Form-Background-Image\ \(1\).webp);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     margin: 0 auto;
-    padding: 20px 0 20px 200px;
-    width: 50%;
+    padding: 20px 0 20px 0px;
+    width: 90%;
     height: 500px;
-    text-align: left;
+    
 }
 
 #signup-form {
     background-color: rgba(240, 240, 240, 0.9);
-    padding: 10px 0 50px 150px;
-    margin: 20px 250px 100px 0;
+    padding: 10px 0 50px 0px;
+    margin: 20px 200px 100px ;
     border-radius: 50px;
 }
 
 
 
 input[type=text], input[type=email] {
-  width: 25%;
+  max-width: 100%;
   margin-bottom: 30px;
 
 }
@@ -267,7 +262,20 @@ input[type=text], input[type=email] {
  /* for screen size 1500px and lower */
 @media screen and (max-width:1500px) {
     
-/* home page */
+/* header contents */
+ 
+ #logo {
+    height: 150px;
+    width: 150px;
+ }
+ #name {
+    font-size: 40px;
+ }
+ #menu {
+    font-size: 100%;
+ }
+
+ /* home page */
 
  #checklists {
     margin: 0 auto;
@@ -283,6 +291,18 @@ input[type=text], input[type=email] {
     border-color: rgb(19, 83, 70);
  }
 
+}
+
+/* for screen size 1080px and lower */
+
+@media screen and (max-width:1080px) {
+     
+/* header contents */
+
+ #menu {
+    font-size: 90%;
+    
+ }
 }
 
  
