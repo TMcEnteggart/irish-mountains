@@ -13,5 +13,13 @@ Irish Mountains is a site for beginner hikers that will provide the information 
 
 
 * Footer
-   *
+   * This will contain icon links to social media websites. These websites will open in a new tab and be accessable to screen reader users by aria labels.
+   * This will allow users to follow the Irish Mountains community on social media that may contain more up to date information than the site.
+
+
+
+### Landing Page
+* Landing Page Image
+   * Each page will have a unique landing image.
+   
 
