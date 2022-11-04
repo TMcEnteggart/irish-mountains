@@ -169,16 +169,83 @@ Accessibility for the site was tested using [Wave Accessibility](https://wave.we
 Wave did not detect any errors when tested throughout the website. Manual testing was successful, as I could navigate all facets of the site using a keyboard alone.
 
 #### Home Page Wave Results
-![Home Wave Test](/docs/snippets/home_wave.png)
+![Home Wave Test](/docs/snippets/home-wave.png)
 
 #### Locations Page Wave Results
-![Locations Wave Test](/docs/snippets/wave_locations.png)
+![Locations Wave Test](/docs/snippets/wave-locations.png)
 
 #### Newsletter Page Wave Results
 ![Newsletter Wave Test](/docs/snippets/newsletter_wave.png)
 
 #### Signup Page Wave Results
 ![Signup Wave Test](/docs/snippets/signup_wave.png)
+
+## Functional Testing
+
+### Navigation Links
+
+All navigation links on the site were tested for correct link location and to open in a new tab if linked to a site other than Irish Mountains.
+
+All links functioned as expected when tested.
+
+### Form Testing
+
+The newsletter signup form was tested to ensure all required fields were functional and that the success page would load once details were entered. 
+
+The newsletter formed functioned as expected when tested.
+
+## Validator Testing
+
+* HTML
+   * HTML was tested using [W3C Validator](https://validator.w3.org/)
+   * One consistent error occured when checking the HTML of the site. I incorrectly used a "section" element for my hero image when I should have used a "div", as the HTML did not contain a heading for the section element. This was fixed post validation.
+   * I also incorrectly applied an "alt" attribute to a div as the div contained an image file. This was also corrected post validation.
+ 
+![HTML Validation Errors](/docs/snippets/w3_newsletter.png)
+
+* CSS
+   * CSS was tested using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+   * No errors occured when testing CSS
+
+![CSS Test](/docs/snippets/css_test.png)
+
+## Deployment
+
+### Version Control
+
+The site was created using GitPod and pushed to GitHub to the repository "irish-mountains'.
+
+The following git commands were used through development to add, commit and push code to the repo:
+
+* 'git add .' - Used to add file(s) to the staging area before commitment.
+* 'git commit -m "commit message"' - Used to commit changes to the repository with an accompanying message.
+* 'git push' - Used to push all committed code to the repository.
+
+### Deployment to GitHub Pages
+
+* The site was deployed to GitHub Pages using the following steps:
+   * In the GitHub repository, click the Settings tab
+   * Select 'Pages' from the left menu
+   * From the source drop-down menu, select the "main" branch
+   * Click Save
+   * After a couple of minutes, the site is deployed and a link to the site will be displayed in a green banner if successful.
+
+The live link to Irish Mountains can be found here - https://tmcenteggart.github.io/irish-mountains/
+
+## Credits
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+   * Flex styles used in the site were learned from this site.
+
+* [CSS Lists](https://www.w3schools.com/css/css_list.asp)
+   * Square bullet point list styles used in '.trail-info' was learned from this site.
+
+### Content & Media
+
+All content and media on the site was taken from open source site [Pixabay](https://pixabay.com/) 
+
+ 
+
+
 
 
 
