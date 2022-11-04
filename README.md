@@ -11,3 +11,7 @@ Irish Mountains is a site for beginner hikers that will provide the information 
     * Contains links to the Home, Locations and Newsletter pages for quick site navigation on all devices.
     * Link to the users current page has a different color so the user knows what page they are currently viewing.
 
+
+* Footer
+   *
+
