@@ -232,6 +232,17 @@ The following git commands were used through development to add, commit and push
 
 The live link to Irish Mountains can be found here - https://tmcenteggart.github.io/irish-mountains/
 
+### Clone Repository Code Locally
+
+If you wish to clone the repository code locally:
+   * Click on the code drop down button
+   * Click on HTTPS
+   * Copy the repository link to the clipboard
+   * Open your IDE of choice (Git must be installed for next step)
+   * Type git clone copied-git-url into the IDEA terminal
+
+The project will now be cloned on your local device for use.
+
 ## Credits
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
    * Flex styles used in the site were learned from this site.
