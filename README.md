@@ -172,7 +172,7 @@ Wave did not detect any errors when tested throughout the website. Manual testin
 ![Home Wave Test](/docs/snippets/home_wave.png)
 
 #### Locations Page Wave Results
-![Locations Wave Test](/docs/snippets/locations_wave.png)
+![Locations Wave Test](/docs/snippets/wave_locations.png)
 
 #### Newsletter Page Wave Results
 ![Newsletter Wave Test](/docs/snippets/newsletter_wave.png)
