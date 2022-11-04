@@ -33,6 +33,8 @@ Irish Mountains is a site for beginner hikers that will provide the information 
 * 404 Page
    * A 404 error page that allows the user to return to the home page should they encounter a 404 error when browsing.
 
+![404 Image](/docs/snippets/404.png)
+
 
 #### Home Page Landing Image
 ![Home Landing Image](/docs/snippets/home_landing_image.png)
