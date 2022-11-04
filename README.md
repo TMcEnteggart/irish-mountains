@@ -30,6 +30,10 @@ Irish Mountains is a site for beginner hikers that will provide the information 
 
 ![Favicon](/docs/snippets/favicon.png)
 
+* 404 Page
+   * A 404 error page that allows the user to return to the home page should they encounter a 404 error when browsing.
+
+
 #### Home Page Landing Image
 ![Home Landing Image](/docs/snippets/home_landing_image.png)
 
@@ -188,6 +192,12 @@ Wave did not detect any errors when tested throughout the website. Manual testin
 
 ## Functional Testing
 
+### 404 Page
+
+The 404 page was tested by adding random text to the sites url in order to force a 404 error.
+
+The 404 page functioned as expected when tested.
+
 ### Navigation Links
 
 All navigation links on the site were tested for correct link location and to open in a new tab if linked to a site other than Irish Mountains.
@@ -250,6 +260,10 @@ If you wish to clone the repository code locally:
 The project will now be cloned on your local device for use.
 
 ## Credits
+
+* [Custom GitHub 404 Page Guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+   * This guide was followed to implement the 404 page
+
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
    * Flex styles used in the site were learned from this site.
 
