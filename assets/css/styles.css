@@ -38,7 +38,7 @@ h1, h2, h3, nav li {
 header {
     display: flex;
     justify-content: center;
-    width: auto;
+    
     margin-bottom: 20px;
 }
 
@@ -77,6 +77,7 @@ header {
     background-image: url(../images/irish-mountains-hero-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     
 
     /* zooms out hero image on loading page*/
@@ -105,14 +106,14 @@ header {
 
 #welcome {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 /* essentials section */
 
 #essentials {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 70%;
     align-self: center;
 }
 
@@ -177,6 +178,7 @@ footer {
     background-image: url(../images/locations-hero-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 
     /* zooms out hero image on loading page*/
     animation-name: hero-zoom;
@@ -196,10 +198,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 50%;
+    width: 80%;
 }
 
 .trail-info {
+    text-align: left;
     list-style-position: inside;
     list-style-type: square;
 }
@@ -218,6 +221,7 @@ footer {
     background-image: url(../images/newsletter-hero.webp);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     
     /* zooms out hero image on loading page*/
     animation-name: hero-zoom;
@@ -310,10 +314,90 @@ input[type=text], input[type=email] {
      
 /* header contents */
 
- #menu {
-    font-size: 90%;
-    
+ #name {
+    font-size: 30px;
  }
+ #menu {
+    font-size: 80%;
+ }
+
+ #menu li {
+    float: none;
 }
+
+/*locations page */
+
+.trail-image {
+    height: 500px;
+    width: auto;
+}
+
+}
+
+@media screen and (max-width:720px) {
+
+    /*header contents */
+
+    #logo {
+        margin-top: 20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #name {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    #menu {
+        width: 80px;
+        font-size: 65%;
+        padding-right: 20px;
+    }
+
+    #menu ul {
+        padding: 0;
+    }
+
+    
+    /* site-wide style changes */
+
+
+    body {
+        font-size: 90%;
+    }
+
+
+
+    /* home page specifics */
+
+
+    .list {
+        width: auto;
+    }
+
+    /* locations page specifics */
+
+    .trail-image {
+        height: auto;
+        width: 320px;
+    }
+
+    /* newsletter page specifics */
+
+    #signup-box {
+        background-image: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #signup-form {
+        margin: auto;
+        background-color: rgba(219, 219, 219, 0.75);
+        border: 2px solid;
+        border-color: rgb(19, 83, 70);
+    }
+}
+    
 
  
