@@ -272,6 +272,12 @@ input[type=text], input[type=email] {
     padding-top: 20px;
  }
 
+ /* 404 page styles */
+
+ #404-text {
+    text-align: center;
+ }
+
  /* media queries */
 
  /* for screen size 1500px and lower */
