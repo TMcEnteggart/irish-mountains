@@ -13,7 +13,7 @@ Irish Mountains is a site for beginner hikers that will provide the information 
 
 ![Nav Menu](/docs/snippets/nav_bar.png)
 * Footer
-   * This will contain icon links to social media websites. These websites will open in a new tab and be accessable to screen reader users by aria labels.
+   * This will contain icon links to social media websites. These websites will open in a new tab and be accessible to screen reader users by aria labels.
    * This will allow users to follow the Irish Mountains community on social media that may contain more up to date information than the site.
 
 ![Footer](/docs/snippets/footer.png)
@@ -23,6 +23,12 @@ Irish Mountains is a site for beginner hikers that will provide the information 
    * The landing images show the user some of the landscapes that hiking has to offer.
    * Each landing image will be animated to catch the users attention.
    * The Newsletter landing image instills a sense of community in the user appropriate to the goal of the page.
+
+* Favicon
+   * The Irish Mountains logo image doubles as a Favicon for the site.
+   * This allows users to easily navigate back to the Irish Mountains tab should they have multiple tabs open.
+
+![Favicon](/docs/snippets/favicon.png)
 
 #### Home Page Landing Image
 ![Home Landing Image](/docs/snippets/home_landing_image.png)
@@ -249,6 +255,9 @@ The project will now be cloned on your local device for use.
 
 * [CSS Lists](https://www.w3schools.com/css/css_list.asp)
    * Square bullet point list styles used in '.trail-info' was learned from this site.
+
+* [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
+   * Favicon was implemented into the site using this guide.
 
 ### Content & Media
 
